@@ -33,5 +33,6 @@ ENTER
 STRING GOTO A
 ENTER
 CONTROL z
+ENTER
 DELAY 100
-STRING start F.bat"</pre></code>
+STRING start F.bat</pre></code>
