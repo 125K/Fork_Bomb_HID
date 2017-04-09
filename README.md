@@ -6,7 +6,7 @@ Author: BlueArduino20
 # Fork Bomb for Rubber Ducky (For Windows)
 Really basic script to crash Windows executing exponencially "mspaint.exe" and the same bat. It could be fun!
 
-It's designed for the USB Rubber Ducky, but you can convert it for Teensy with Duckuino.js (By d4n5h): https://github.com/d4n5h/Duckuino
+It's designed for the USB Rubber Ducky, but you can convert it for other BadUSB working with arduino with Duckuino.js (By d4n5h): https://github.com/d4n5h/Duckuino
 
 Anyway, here you've got the code:
 
