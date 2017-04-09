@@ -1,4 +1,3 @@
-<pre><code>
 #include <Keyboard.h>
 
 
@@ -73,4 +72,3 @@ void setup()
 
 // Unused
 void loop() {}
-</pre></code>
